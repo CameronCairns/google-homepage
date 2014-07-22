@@ -1,1 +1,81 @@
-/*Insert CSS Here */
+.header{
+  height: 3em;
+}
+
+/* This allows the footer to stick to the bottom of the page. Sets "top part of page"
+ * to 100% height which allows me to use a negative margin for the footer to push it 
+ * onto the top page */
+html, body, .page-wrap{
+  height: 100%;
+}
+
+body > .page-wrap{
+  height: auto; min-height:100%;
+}
+
+.header a{
+  float: right;
+  margin:1em;
+  display:block;
+}
+
+.header img{
+  float: right;
+  margin-top: 0;
+  height:1.5em; width:1em;
+}
+
+#app{
+  float: right;
+  height: 1em; width: 1em;
+  background: black;
+  margin-top:1em;
+}
+
+body  img {
+  z-index: 7;
+  display: block;
+  margin-top: 4em;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#Search_Bar {
+  border: solid black;
+  height: 2em; width: 50em;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:4em;
+}
+
+#buttons{
+  text-align:center;
+}
+
+.Footer {
+  clear: both;
+  position:relative;
+  z-index:10;
+  height: 3em;
+  margin-top:-3em;
+}
+
+.Footer .bleft{
+  float:left;
+  margin:1em;
+}
+
+.Footer .bright{
+  float:right;
+  margin:1em;
+}
+
+a:link{
+  color: black;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}

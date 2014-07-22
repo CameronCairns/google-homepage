@@ -7,28 +7,52 @@
   </title>
 </head>
 <body>
-  <div class="header">
-    <p>+You</p>
-    <p>Gmail</p>
-    <p>Images</p>
-    <div id="app"></div>
-    <p>Sign in</p>
-  </div> 
-  <div class="Install_Bubble" >
-    <img src="https://www.google.com/images/icons/product/chrome-48.png" />
-    <img src="" />
-    <p> A faster way to browse the web </p>
-    <p><strong>Install Google Chrome</strong><p>
-  </div>
-  <img src="https://www.google.com/images/srpr/logo11w.png" />
-  <div id="Search_Bar"></div>
-  <p class="button"> Google Search </p>
-  <p class="button"> I'm Feeling Lucky </p>
+  <div class = "page-wrap" >
+  <!--This is the header of the Google Search page -->
+    <div class="header">
+      <a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/%3Fgws_rd%3Dssl">
+        Sign in
+      </a>
+      <a href="http://www.google.com/intl/en/options" >
+        <img src="http://www.whats-in-a-form.org/MEDIA/00014.jpg" />
+      </a>
+      <a href="https://www.google.com/imghp?hl=en&tab=wi&ei=dmfJU-pOxPuKAuTxgeAL&ved=0CAQQqi4oAg">
+        Images
+      </a>
+      <a href="https://mail.google.com/mail/?tab=wm">
+        Gmail
+      </a>
+      <a href="https://plus.google.com/?gpsrc=ogpy0&tab=wX">
+        +You
+      </a>
+    </div> 
+    <!-- If I'm feeling adventurous I'll complete this -->
+    <!--
+    <div class="Install_Bubble" >
+      <img src="https://www.google.com/images/icons/product/chrome-48.png" />
+      <img src="" />
+      <p> A faster way to browse the web </p>
+      <p><strong>Install Google Chrome</strong><p>
+    </div>
+    -->
+    <!-- Google Logo -->
+    <img src="https://www.google.com/images/srpr/logo11w.png" />
+    <!--Search Bar -->
+    <form>
+      <input type="text" name="searchbar" id="Search_Bar">
+    </form>
+    <!--Google Search and I'm feeling lucky buttons -->
+    <div id= "buttons">
+      <button id="left"> Google Search </button>
+      <button id="right"> I'm Feeling Lucky </button>
+    </div>
+  </div>  
+  <!--Footer with links to advertising, etc. -->
   <div class="Footer">
-    <p> Advertising </p>
-    <p> Business </p>
-    <p> About </p>
-    <p> Privacy & Terms </p>
-    <p> Settings </p>
+    <a class="bleft" href="https://www.google.com/intl/en/ads/?fg=1"> Advertising </a>
+    <a class="bleft" href="https://www.google.com/services/?fg=1"> Business </a>
+    <a class="bleft" href="https://www.google.com/intl/en/about.html?fg=1"> About </a>
+    <a class="bright" href="https://www.google.com/intl/en/policies/?fg=1"> Settings </a>
+    <a class="bright" href="https://www.google.com/preferences?hl=en"> Privacy & Terms </a>
   </div>
 </body>
